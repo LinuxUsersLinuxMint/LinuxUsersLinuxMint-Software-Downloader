@@ -31,15 +31,20 @@ Python-Module: K
 
 */
 
-char software_type[];
-char software_number[];
-char alphabet_equivalent[];
-char software_version[];
-char download_file_type[];
+#define MAX 100
 
-char software_download_url[];
+char software_type[MAX];
+char software_number[MAX];
+char alphabet_equivalent[MAX];
+char software_version[MAX];
+char download_file_type[MAX];
 
-char dot[] = ".";
-char two_dots[] = ":";
+char app_code[MAX];
+char app_name[MAX];
+
+char software_download_url[MAX];
+
+char dot[MAX] = ".";
+char two_dots[MAX] = ":";
 
 #endif
